@@ -1,18 +1,25 @@
 #include<stdio.h>
 int main(void)
 {
-    int a,n,i,num,sum;
-    scanf("%d",&a);
-    scanf("%d",&n);
-    num=0;
-    sum=0;
-    for(i=1;i<=n;i++)
+    int x,y,z;
     {
-        num=num*10+a;
-        sum+=num;
-
+        x=0;
+        while(x<=20)
+        {
+            y=0;
+            while(y<=33)
+            {
+                z=0;
+                while(z<=300)
+                {
+                    if(5*x+3*y+z/3.0==100&&x+y+z==100)
+                    printf("%d %d %d\n",x,y,z);
+                    z++;
+                }
+                y++;
+            }
+            x++;
+        }
     }
-    printf("%d",sum);
     return 0;
-
 }
