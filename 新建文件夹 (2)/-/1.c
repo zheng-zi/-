@@ -3,10 +3,10 @@
 int main(void)
 {
     double a,b,c,pi;
-    a=1.0;
-    b=1.0;
-    c=1.0;
-    pi=1.0;
+    a=1;
+    b=1;
+    c=1;
+    pi=1;
     while (fabs(a)>=0.0001)
     {
     b=-b;
