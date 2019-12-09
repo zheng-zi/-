@@ -7,25 +7,29 @@ int main(void)
 
 int draw(int x)
 {
-int i,b,c,d,e;
+int a,b,c,d,e,f;
 
 
 
-  for(i=1;i<=1;i++)
-    {
-        printf("w");
-        for(b=1;b<=1;b++){
+    printf("w");
+    for(b=1;b<=1;b++){
             
-                printf("   ");
-                printf("w");
-                printf("\n");}
+    printf("      ");
+    printf("w");
+    printf("      ");
+    printf("w");
+    printf("\n");
+    printf(" w");}
 
-                for(c=1;c<=1;c++)
-                    
-                       { printf(" ");}
-                    for(d=1;d<=1;d++)
-                       {printf(" ");
-                       printf("w");
-                       }
-        }
+    for(c=1;c<=2;c++)
+    { printf(" ");
     }
+    for(d=1;d<=2;d++)
+    {
+    printf("   ");
+    printf("w");
+    printf("     ");
+    printf("w");
+    printf("\n");
+    }
+}
